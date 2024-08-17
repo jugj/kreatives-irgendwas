@@ -5,12 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class sprechen : MonoBehaviour
 {
+    public SceneManagerCLass SceneManagerCLass;
     public GameObject spieler;
+    public bool bereitsGesprochen=false;
     // Update is called once per frame
     void Update()
     {
         if((Vector2.Distance(gameObject.transform.position, spieler.transform.position)<1)&&(Input.GetKey("space"))){
-            UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+            bereitsGesprochen=true;
+            SceneManagerCLass.LoadDialog1();
         }
     }
 }
