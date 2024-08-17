@@ -5,16 +5,8 @@ using UnityEngine;
 public class Bewegung : MonoBehaviour
 {
     public float Geschwindigkeit;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-          if  (Input.GetKey("up")){
+  void Update(){
+      if  (Input.GetKey("up")){
         transform.Translate(Vector2.up*Geschwindigkeit*Time.deltaTime,Space.World);
     }
      if(Input.GetKey("down")){
@@ -25,6 +17,6 @@ public class Bewegung : MonoBehaviour
     }
     if(Input.GetKey("right")){
        transform.Translate(Vector2.right*Geschwindigkeit*Time.deltaTime,Space.World);
-   }
     }
+  } 
 }
