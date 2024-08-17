@@ -14,7 +14,12 @@ public class Bewegung : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-         
+          if  (Input.GetKey("up")){
+        transform.Translate(Vector2.up*Geschwindigkeit*Time.deltaTime,Space.World);
+    }
+     if(Input.GetKey("down")){
+       transform.Translate(Vector2.down*Geschwindigkeit*Time.deltaTime,Space.World);
+    }
     if(Input.GetKey("left")){
        transform.Translate(Vector2.left*Geschwindigkeit*Time.deltaTime,Space.World);
     }
