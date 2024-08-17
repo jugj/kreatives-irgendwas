@@ -1,0 +1,117 @@
+
+
+Dialog 1 (mit npc1) [schon geschrieben]
+
+
+
+
+Dialog 2 (mit ruler (text: "???") - nur als Auge)
+
+
+"???": Na, sieh mal an... Du hast also die erste Regel gebrochen.
+PC: Wer spricht da?
+"???": Eine gute Frage, aber im Moment unwichtig.
+"???": Wichtiger ist: Welche Regeln gibt es noch?
+PC: Regeln? Wovon redest du?
+"???": Was, hast du es noch nicht bemerkt?
+"???": ...
+"???": In dieser Welt gibt es drei Regeln, heiliger als selbst Gott.
+"???": Wer sie bricht ist verdammt.
+PC: ...also war das gerade?
+"???": Bingo! Das war deine Strafe, kleiner Regelbrecher.
+PC: ...
+PC: 1. Ich darf die Stadt nicht verlassen? 2. Ich bin hier gefangen.
+"???": Das befürchte ich.
+"???": obwohl...
+"???": ...nein. Du würdest es sowieso nicht schaffen.
+PC: Was würde ich nicht schaffen?
+"???": Nichts. Es ist unwichtig.
+PC: Sag es mir.
+"???": Vielleicht gibt es einen Weg zu fliehen...
+"???": Zuerst musst du alle Regeln kennen.
+PC: ...
+PC: Sie ist weg.
+PC: (Ihre Stimme kam mir irgendwie bekannt vor.)
+
+
+
+
+Dialog 3 (Mit NPC2 - "Seltsamer Ball")
+
+
+PC: Hallo. Kannst du mir helfen?
+"Seltsamer Ball": ...
+PC: ...
+"Seltsamer Ball": ... 
+PC: ...kannst du mich verstehen?
+"Seltsamer Ball": Du gehörst hier nicht hin. Du musst gehen.
+PC: Ich kann nicht.
+"Seltsamer Ball": Ich weiß.
+PC: Hilf mir. Bitte.
+"Seltsamer Ball": Könntest du jemanden lieben, selbst wenn diese Person unmögliche Grausamkeiten begonnen hat?
+PC: 1. Ja. 2. Nein.
+"Seltsamer Ball": ...interessant. Bist du dir sicher?
+PC: ...
+PC: Ja.
+"Seltsamer Ball": Ich helfe dir.
+"Seltsamer Ball": Sprich mit der weinenden Dame. Sie ist die Älteste von uns.
+
+
+
+
+Dialog 4 (Mit NPC3 - "Weinende Dame")
+
+
+PC: Bist du die weinende Dame?
+PC: Mir wurde gesagt du kannst mir helfen.
+"Weinende Dame": Was willst du von mir?
+PC: (Brrr! Sie sieht aus als wolle sie mich umbringen!)
+PC: Kennst du die zweite Regel?
+"Weinende Dame": Ha! Was willst du denn schon mit der zweiten Regel?
+PC: Ich fliehe.
+"Weinende Dame": Sicher, dass es das ist, was du willst?
+PC: 1. Ja. 2. Nein.
+"Weinende Dame": ...lächerlich. 
+"Weinende Dame": Hör gut zu. Und pass auf was du tust.
+"Weinende Dame": Hast du einmal eine Entscheidung getroffen, kannst du diese nicht mehr zurücknehmen.
+PC: ...
+PC: (Meine Entscheidungen sind also endgültig, was?)
+PC: Danke.
+
+
+
+
+Dialog 5 (Mit Ruler ("Sie") - letzter Dialog)
+
+
+"???": Du hast die ersten zwei Regeln.
+PC: Fehlt nur noch eine.
+"???": Ich kenne sie.
+PC: !!!
+PC: Du bist es!
+"Sie": Es ist lange  her.
+"Sie": Ich habe dich vermisst.
+PC: ...
+PC: Ich kann kaum glauben, dass das echt ist.
+PC: Wieso bist du hier?
+"Sie": Das ist nicht wichtig.
+"Sie": Wir können gehen. 
+"Sie": Gemeinsam.
+PC: ....
+PC: Ja!
+"Sie": Komm mit! Lass uns gehen!
+PC: Was ist mit den anderen?
+"Sie": Was soll mit ihnen sein?
+PC: Kommen sie nicht mit?
+"Sie": Sie kommen nicht mit.
+PC: Sie leiden.
+"Sie": Sie sind verdammt. Sie können nicht mit.
+"Sie": Vertrau mir.
+PC: Ich kann ihnen helfen.
+"Sie": Mann kann Ihnen nicht helfen.
+"Sie":  Vertrau mir. Bitte.
+PC: 1. Ich vertraue dir. 2. Es tut mir leid.
+
+
+1. "Sie": Dann komm. Wir gehen." 2. "Ich verstehe... auf Wiedersehen."
+
