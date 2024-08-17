@@ -11,7 +11,6 @@ public class sprechen : MonoBehaviour
     }
 
     // Update is called once per frame
->>>>>>> Stashed changes:Assets/sprechen.cs
     void Update()
     {
         
