@@ -20,7 +20,7 @@ public class button1 : MonoBehaviour
     public void weiter(){
         nextText = NächsterText();
         if(nextText=="" ){
-            SceneManagerCLass.LoadStadt1();
+            SceneManagerCLass.LoadStadt1a();
         }
         else{
             starText.SetText(nextText);

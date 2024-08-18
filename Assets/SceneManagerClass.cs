@@ -48,4 +48,8 @@ public class SceneManagerCLass : MonoBehaviour
     public void LoadEnde2(){
         UnityEngine.SceneManagement.SceneManager.LoadScene(5);
     }
+
+    public void LoadStadt1a(){
+        UnityEngine.SceneManagement.SceneManager.LoadScene(11);
+    }
 }
