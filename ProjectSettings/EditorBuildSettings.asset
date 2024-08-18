@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Stadt 1a.unity
     guid: 0d7b93a2fd53b69419fa91a4cf0ee56c
+  - enabled: 1
+    path: Assets/Scenes/Dialog5.unity
+    guid: 3a2a3ef21114bc84785e717659be62d5
   m_configObjects: {}

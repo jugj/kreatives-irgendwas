@@ -856,6 +856,9 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3159131355601265512, guid: fbf8e28300dc7d74bb4c45c35187f413, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 1067034170}
+    - targetCorrespondingSourceObject: {fileID: 3159131355601265512, guid: fbf8e28300dc7d74bb4c45c35187f413, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 1067034169}
   m_SourcePrefab: {fileID: 100100000, guid: fbf8e28300dc7d74bb4c45c35187f413, type: 3}
 --- !u!1001 &1058304856
@@ -924,27 +927,78 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3159131355601265512, guid: fbf8e28300dc7d74bb4c45c35187f413, type: 3}
   m_PrefabInstance: {fileID: 1031504742}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &1067034169
-Animator:
-  serializedVersion: 5
+--- !u!61 &1067034169
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1067034168}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8329907bbfb9bb64092b7fe4db776cf0, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!50 &1067034170
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067034168}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1620154941
 GameObject:
   m_ObjectHideFlags: 0
@@ -1063,8 +1117,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -379, y: -346}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -72.37839, y: -419.5266}
+  m_SizeDelta: {x: 813.2432, y: 197.0532}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1653445040
 MonoBehaviour:
@@ -1088,7 +1142,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Regeln:
 
-    1.???
+    1. Du darfst die Stadt nicht verlassen.
 
     2.???
 

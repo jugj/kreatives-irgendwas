@@ -52,4 +52,8 @@ public class SceneManagerCLass : MonoBehaviour
     public void LoadStadt1a(){
         UnityEngine.SceneManagement.SceneManager.LoadScene(11);
     }
+
+    public void LoadDialog5(){
+        UnityEngine.SceneManagement.SceneManager.LoadScene(12);
+    }
 }

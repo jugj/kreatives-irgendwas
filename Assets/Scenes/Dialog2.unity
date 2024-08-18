@@ -346,7 +346,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3148573531056125520, guid: cc833234c063cd54b8788b377a229954, type: 3}
       propertyPath: m_text
-      value: 'PC: Hallo. Kannst du mir helfen?'
+      value: '???: Na, sieh mal an... Du hast also die erste Regel gebrochen.'
       objectReference: {fileID: 0}
     - target: {fileID: 3148573531056125520, guid: cc833234c063cd54b8788b377a229954, type: 3}
       propertyPath: m_fontColor.b
