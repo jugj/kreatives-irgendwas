@@ -231,6 +231,18 @@ PrefabInstance:
       propertyPath: Spieler
       value: 
       objectReference: {fileID: 1067034168}
+    - target: {fileID: 7081821570995699145, guid: c230338e2908ffa41ae66e48456b3442, type: 3}
+      propertyPath: m_Color.b
+      value: 0.9718975
+      objectReference: {fileID: 0}
+    - target: {fileID: 7081821570995699145, guid: c230338e2908ffa41ae66e48456b3442, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9718975
+      objectReference: {fileID: 0}
+    - target: {fileID: 7081821570995699145, guid: c230338e2908ffa41ae66e48456b3442, type: 3}
+      propertyPath: m_Color.r
+      value: 0.98490566
+      objectReference: {fileID: 0}
     - target: {fileID: 9192969072697332576, guid: c230338e2908ffa41ae66e48456b3442, type: 3}
       propertyPath: m_Name
       value: NPC 2
@@ -242,7 +254,10 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 9192969072697332576, guid: c230338e2908ffa41ae66e48456b3442, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2104392498}
+      addedObject: {fileID: 2104392495}
+    - targetCorrespondingSourceObject: {fileID: 9192969072697332576, guid: c230338e2908ffa41ae66e48456b3442, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2104392496}
   m_SourcePrefab: {fileID: 100100000, guid: c230338e2908ffa41ae66e48456b3442, type: 3}
 --- !u!1 &191039820
 GameObject:
@@ -671,6 +686,14 @@ PrefabInstance:
       value: Spieler
       objectReference: {fileID: 0}
     - target: {fileID: 6209301643513885200, guid: fbf8e28300dc7d74bb4c45c35187f413, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209301643513885200, guid: fbf8e28300dc7d74bb4c45c35187f413, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209301643513885200, guid: fbf8e28300dc7d74bb4c45c35187f413, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.3405
       objectReference: {fileID: 0}
@@ -710,10 +733,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6686271066221458121, guid: fbf8e28300dc7d74bb4c45c35187f413, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6686271066221458121, guid: fbf8e28300dc7d74bb4c45c35187f413, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6686271066221458121, guid: fbf8e28300dc7d74bb4c45c35187f413, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3159131355601265512, guid: fbf8e28300dc7d74bb4c45c35187f413, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1067034169}
   m_SourcePrefab: {fileID: 100100000, guid: fbf8e28300dc7d74bb4c45c35187f413, type: 3}
 --- !u!1001 &1058304856
 PrefabInstance:
@@ -781,6 +819,27 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3159131355601265512, guid: fbf8e28300dc7d74bb4c45c35187f413, type: 3}
   m_PrefabInstance: {fileID: 1031504742}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1067034169
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067034168}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8329907bbfb9bb64092b7fe4db776cf0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1620154941
 GameObject:
   m_ObjectHideFlags: 0
@@ -1224,6 +1283,27 @@ MonoBehaviour:
   SceneManagerCLass: {fileID: 335471941}
   spieler: {fileID: 1067034168}
   bereitsGesprochen: 0
+--- !u!95 &2104392496
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104392491}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0b4b0fa68e33b1340b28b5c72fa428f7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
