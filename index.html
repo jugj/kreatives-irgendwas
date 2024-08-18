@@ -6,6 +6,11 @@
     <title>Unity WebGL Player | New Unity Project</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+		<style>
+			body {
+				background: black;
+			}
+		</style>
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -17,11 +22,6 @@
         </div>
       </div>
       <div id="unity-warning"> </div>
-      <div id="unity-footer">
-        <div id="unity-webgl-logo"></div>
-        <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">New Unity Project</div>
-      </div>
     </div>
     <script>
 
@@ -94,8 +94,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "1000px";
-        canvas.style.height = "1000px";
+        canvas.style.width = (1000 / window.devicePixelRatio) + "px";
+        canvas.style.height = (1000 / window.devicePixelRatio) + "px";
       }
 
       loadingBar.style.display = "block";
@@ -107,9 +107,6 @@
           progressBarFull.style.width = 100 * progress + "%";
               }).then((unityInstance) => {
                 loadingBar.style.display = "none";
-                fullscreenButton.onclick = () => {
-                  unityInstance.SetFullscreen(1);
-                };
               }).catch((message) => {
                 alert(message);
               });
