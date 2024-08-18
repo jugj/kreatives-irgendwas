@@ -8,30 +8,30 @@ Dialog 1 (mit npc1) [schon geschrieben]
 Dialog 2 (mit ruler (text: "???") - nur als Auge)
 
 
-"???": Na, sieh mal an... Du hast also die erste Regel gebrochen.
-PC: Wer spricht da?
-"???": Eine gute Frage, aber im Moment unwichtig.
-"???": Wichtiger ist: Welche Regeln gibt es noch?
-PC: Regeln? Wovon redest du?
-"???": Was, hast du es noch nicht bemerkt?
-"???": ...
-"???": In dieser Welt gibt es drei Regeln, heiliger als selbst Gott.
-"???": Wer sie bricht ist verdammt.
-PC: ...also war das gerade?
-"???": Bingo! Das war deine Strafe, kleiner Regelbrecher.
-PC: ...
-PC: 1. Ich darf die Stadt nicht verlassen? 2. Ich bin hier gefangen.
-"???": Das befürchte ich.
-"???": obwohl...
-"???": ...nein. Du würdest es sowieso nicht schaffen.
-PC: Was würde ich nicht schaffen?
-"???": Nichts. Es ist unwichtig.
-PC: Sag es mir.
-"???": Vielleicht gibt es einen Weg zu fliehen...
-"???": Zuerst musst du alle Regeln kennen.
-PC: ...
-PC: Sie ist weg.
-PC: (Ihre Stimme kam mir irgendwie bekannt vor.)
+1"???": Na, sieh mal an... Du hast also die erste Regel gebrochen.
+2PC: Wer spricht da?
+3"???": Eine gute Frage, aber im Moment unwichtig.
+4"???": Wichtiger ist: Welche Regeln gibt es noch?
+5PC: Regeln? Wovon redest du?
+6"???": Was, hast du es noch nicht bemerkt?
+7"???": ...
+8"???": In dieser Welt gibt es drei Regeln, heiliger als selbst Gott.
+9"???": Wer sie bricht ist verdammt.
+10PC: ...also war das gerade?
+11"???": Bingo! Das war deine Strafe, kleiner Regelbrecher.
+12PC: ...
+13,14PC: 1. Ich darf die Stadt nicht verlassen? 2. Ich bin hier gefangen.
+15"???": Das befürchte ich.
+16"???": obwohl...
+17"???": ...nein. Du würdest es sowieso nicht schaffen.
+18PC: Was würde ich nicht schaffen?
+19"???": Nichts. Es ist unwichtig.
+20PC: Sag es mir.
+21"???": Vielleicht gibt es einen Weg zu fliehen...
+22"???": Zuerst musst du alle Regeln kennen.
+23PC: ...
+24PC: Sie ist weg.
+25PC: (Ihre Stimme kam mir irgendwie bekannt vor.)
 
 
 

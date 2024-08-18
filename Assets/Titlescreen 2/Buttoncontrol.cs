@@ -8,7 +8,7 @@ public class Buttoncontrol : MonoBehaviour
     public SceneManagerCLass SceneManagerCLass;
 
     public void TryAgain(){
-        SceneManagerCLass.LoadStadt2();
+        SceneManagerCLass.LoadDialog2();
     }
 
     public void Reset(){
