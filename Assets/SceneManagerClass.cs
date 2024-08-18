@@ -42,11 +42,11 @@ public class SceneManagerCLass : MonoBehaviour
     }
 
     public void LoadEnde1(){
-        UnityEngine.SceneManagement.SceneManager.LoadScene(4);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(5);
     }
 
     public void LoadEnde2(){
-        UnityEngine.SceneManagement.SceneManager.LoadScene(5);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(6);
     }
 
     public void LoadStadt1a(){
