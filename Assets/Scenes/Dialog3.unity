@@ -401,7 +401,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 2ed9cc01ec4a87d43863ee03c2187c86, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -740,12 +740,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 317911857882753475, guid: cc833234c063cd54b8788b377a229954, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.78213894
+      objectReference: {fileID: 0}
+    - target: {fileID: 317911857882753475, guid: cc833234c063cd54b8788b377a229954, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5852121
+      objectReference: {fileID: 0}
+    - target: {fileID: 317911857882753475, guid: cc833234c063cd54b8788b377a229954, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.1996
+      value: 0.0211
       objectReference: {fileID: 0}
     - target: {fileID: 317911857882753475, guid: cc833234c063cd54b8788b377a229954, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.405
+      value: 1.8911
       objectReference: {fileID: 0}
     - target: {fileID: 317911857882753475, guid: cc833234c063cd54b8788b377a229954, type: 3}
       propertyPath: m_LocalPosition.z
@@ -906,6 +914,22 @@ PrefabInstance:
     - target: {fileID: 5029101505147704399, guid: cc833234c063cd54b8788b377a229954, type: 3}
       propertyPath: m_Name
       value: PlatzhalterHintergrund
+      objectReference: {fileID: 0}
+    - target: {fileID: 7822067169064707351, guid: cc833234c063cd54b8788b377a229954, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9dd254719c033d94da3ea10884de5905, type: 3}
+    - target: {fileID: 7822067169064707351, guid: cc833234c063cd54b8788b377a229954, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7822067169064707351, guid: cc833234c063cd54b8788b377a229954, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7822067169064707351, guid: cc833234c063cd54b8788b377a229954, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7822067169064707351, guid: cc833234c063cd54b8788b377a229954, type: 3}
       propertyPath: m_SortingOrder

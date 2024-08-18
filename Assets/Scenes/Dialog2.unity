@@ -245,12 +245,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 317911857882753475, guid: cc833234c063cd54b8788b377a229954, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8101105
+      objectReference: {fileID: 0}
+    - target: {fileID: 317911857882753475, guid: cc833234c063cd54b8788b377a229954, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.6747143
+      objectReference: {fileID: 0}
+    - target: {fileID: 317911857882753475, guid: cc833234c063cd54b8788b377a229954, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.1996
+      value: 0.0707
       objectReference: {fileID: 0}
     - target: {fileID: 317911857882753475, guid: cc833234c063cd54b8788b377a229954, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.405
+      value: 1.5301
       objectReference: {fileID: 0}
     - target: {fileID: 317911857882753475, guid: cc833234c063cd54b8788b377a229954, type: 3}
       propertyPath: m_LocalPosition.z
@@ -411,6 +419,22 @@ PrefabInstance:
     - target: {fileID: 5029101505147704399, guid: cc833234c063cd54b8788b377a229954, type: 3}
       propertyPath: m_Name
       value: PlatzhalterHintergrund
+      objectReference: {fileID: 0}
+    - target: {fileID: 7822067169064707351, guid: cc833234c063cd54b8788b377a229954, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9dd254719c033d94da3ea10884de5905, type: 3}
+    - target: {fileID: 7822067169064707351, guid: cc833234c063cd54b8788b377a229954, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7822067169064707351, guid: cc833234c063cd54b8788b377a229954, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7822067169064707351, guid: cc833234c063cd54b8788b377a229954, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8827168908301431789, guid: cc833234c063cd54b8788b377a229954, type: 3}
       propertyPath: m_Name
